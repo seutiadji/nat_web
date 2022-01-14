@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className="header">
             <div>
-                <img src={natlogo} height="80%" />
+                <img src={natlogo} height="60%" />
                 <h1>NAT PADANG</h1>
             </div>
         </div>

@@ -8,9 +8,9 @@ section {
 
 
 .header>div {
-  height: 11vh;
+  height: 14vh;
   color: white;
-  padding: 10px 10vw 0px 10vw;
+  padding: 20px 10vw 0px 10vw;
 }
 
 .header>div>img {
@@ -44,25 +44,19 @@ a {
   cursor: pointer;
 }
 
-.hero {
-  margin: 100px 20vw 0px 20vw;
-  text-align: center;
-}
-
 .join {
-  margin: 100px 20vw 0px 20vw;
+  margin: 0px 20vw 0px 20vw;
   text-align: center;
-}
-
-.join>h1 {
-  font-size: 70px;
-  margin: 20px;
-  font-weight: 700;
 }
 
 .join>h2 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 60px;
+  margin: 20px;
+  font-weight: 700;
+}
+.hero {
+  margin: 100px 20vw 0px 20vw;
+  text-align: center;
 }
 
 .hero>h1 {
@@ -72,11 +66,16 @@ a {
 }
 
 .hero>h2 {
-  font-size: 26px;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .hero>h3 {
+  font-size: 26px;
+  margin: 0px;
+  font-weight: 700;
+}
+.hero>h4 {
   font-size: 26px;
   margin: 0px;
   font-weight: 700;
@@ -86,9 +85,26 @@ a {
   margin: 0;
 }
 
+.paragraf {
+  margin: 0px 15vw 0px 15vw;
+  text-align: center;
+  padding: 30px;
+}
+
+.paragraf>h1 {
+  font-size: 50px;
+  margin:  20px;
+  font-weight: 500;
+}
+
+.paragraf>h2{
+  font-size: 28px;
+  font-weight: 300;
+}
+
 .social-proof {
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 .social-proof>div {
@@ -107,7 +123,7 @@ a {
 }
 
 .details {
-  padding: 40px;
+  margin: -80px 300px 50px 300px;
   font-size: 24px;
 }
 
@@ -189,8 +205,8 @@ s {
 }
 
 .built-by-details {
-  margin-left: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-left: 20px;
 }
 
 .built-by {
@@ -208,20 +224,12 @@ s {
     margin: 0px 5vw 0px 5vw;
   }
 
-  .hero>h1 {
-    font-size: 40px;
-  }
-
   .single-feature>div>p {
     font-size: 16px;
   }
 
   .details {
-    padding: 60px 10px 20px 10px;
-  }
-
-  .hero>h2 {
-    font-size: 20px;
+    padding: 0px 10px 0px 10px;
   }
 
   .hero-image {
@@ -229,17 +237,14 @@ s {
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
-    height: 58vh;
+   vertical-align: middle;
+    padding: 0px;
   }
 
   .hero-image>img {
-    position: absolute;
-    top: -9850px;
-    bottom: -9999px;
-    left: -9700px;
-    right: -9999px;
-    margin: auto;
-    width: 200%;
+    position: relative;
+    width: 100%;
+    padding: 0px;
   }
 
   .hero {
