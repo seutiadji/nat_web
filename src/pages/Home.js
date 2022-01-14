@@ -3,9 +3,7 @@ import React from 'react';
 import { Image } from 'react-bootstrap';
 
 import Feature from '../components/Feature';
-import SocialProof from '../components/SocialProof';
 
-import heroImage from '../assets/hero-img.png';
 import ft1 from '../assets/pelatihan.png';
 import ft2 from '../assets/seminar.png';
 import ft3 from '../assets/webinar.png';
