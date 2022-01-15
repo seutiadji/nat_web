@@ -1,19 +1,17 @@
 import React from 'react';
 
-import google from '../assets/google.jpg'
-import substack from '../assets/substack.png'
-import mailchimp from '../assets/mailchimp.png'
-import wordpress from '../assets/wordpress.png'
-import medium from '../assets/medium.png'
+import { Image } from 'react-bootstrap';
+
+import whatsappLogo from '../assets/whatsapp-logo.png';
+import instagramLogo from '../assets/instagram-logo.png';
 
 export default function SocialProof() {
     return <div className="social-proof">
         <div>
-            <img alt="social proof" src={google}/>
-            <img alt="social proof" src={substack}/>
-            <img alt="social proof" src={mailchimp}/>
-            <img alt="social proof" src={wordpress}/>
-            <img alt="social proof" src={medium}/>
+        <a href target="_blank" rel="noopener noreferrer" href="https://wa.me/6281374314469"><Image src={whatsappLogo}/></a>
+        </div>
+        <div>
+        <a href target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cv_nutrition_amazing_team/"><Image src={instagramLogo}/></a>
         </div>
     </div>
 }

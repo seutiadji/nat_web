@@ -85,6 +85,26 @@ a {
   margin: 0;
 }
 
+.hubungi {
+  text-align: center;
+  padding: 0px;
+}
+
+.hubungi>h2{
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.sejarah {
+  text-align: left;
+  padding: 0px;
+}
+
+.sejarah>h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
 .paragraf {
   margin: 0px 15vw 0px 15vw;
   text-align: center;
@@ -98,19 +118,21 @@ a {
 }
 
 .paragraf>h2{
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 300;
 }
 
 .social-proof {
   text-align: center;
   padding: 0px;
+  margin: 5vw;
 }
 
 .social-proof>div {
   display: inline;
-  /* height: 120px; */
+  height: 120px;
   overflow: hidden;
+  margin: 20px;
 }
 
 .social-proof>div>img {
@@ -118,12 +140,12 @@ a {
   vertical-align: middle;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  width: 200px;
+  width: 0px;
   padding: 20px;
 }
+.tab { margin-left: 40px; }
 
 .details {
-  margin: -80px 300px 50px 300px;
   font-size: 24px;
 }
 
@@ -254,8 +276,7 @@ s {
 
   .single-feature {
     padding-bottom: 20px;
-    height: 20vh;
-    margin: 100px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
   }
 
   .single-feature>div {
