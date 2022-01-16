@@ -28,7 +28,7 @@ export default function Home() {
                 <img src={natImage1} width="100%" />
             </div>
 
-            <section className="details">
+            <section id="details" className="details">
             <div className="sejarah">
             <h1><b>Sejarah</b></h1>
             </div>
@@ -36,7 +36,7 @@ export default function Home() {
                 <p>Dengan motivasi dan keinginan yang sangat kuat untuk memajukan dan mengembangkan  program kerja, maka team melakukan pe-legalan yang sah secara hukum, sehingga berdirilah Nutriton Amazing Team pada tanggal 20 September 2013 menjadi <span className="highlight"><b>CV Nutrition Amazing Team</b></span>.</p>
             </section>
 
-            <div className="paragraf">
+            <div id="visimisi" className="paragraf">
                 <h1><b>Visi</b></h1>
                 <h2>Menjadi Perusahaan yang sukses di bidang pelayanan kesehatan Nutrisi dan Pelatihan Pengembangan SDM terkemuka, konsisten dalam pengembangan kualitas sumber daya manusia sesuai kebutuhan global, menghasilkan yang terbaik melalui pengelolaan professional.</h2>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
            
 
             <section className="features">
-            <div className="paragraf">
+            <div id="kegiatan" className="paragraf">
                 <h1><b>Kegiatan</b></h1>
             </div>
                 <Feature gif={ft1} title="Pelatihan" description="Kegiatan pelatihan kesehatan yang telah dilaksanakan." direction="left" />

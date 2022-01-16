@@ -28,9 +28,32 @@ section {
   vertical-align: middle;
 }
 
+.header>div>h2 {
+  padding-left: 12px;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 30;
+  color: #F78F1C;
+  font-style: initial;
+  display: inline;
+  vertical-align: middle;
+  float: right;
+}
+
+.header>div>a {
+  float: right;
+  padding-top: 6px;
+  padding-left: 24px;
+  font-weight: 500;
+  color: #F78F1C;
+  font-size: 22px;
+  text-decoration: none;
+}
+
 a {
   /* color: black; */
-  font-weight: bold;
+  font-weight: 500;
+  color: #F78F1C;
   text-decoration: none;
 }
 
